@@ -5,5 +5,5 @@ from . import views
 urlpatterns = [
     path('helloworld/', views.helloWorld),
     path('', views.tasklist, name='task-list'),
-    path('yourname/<str:name>', views.yourName, name='your-name')
+    path('yourname/<str:name>', views.yourName, name='your-name'),
 ]
